@@ -1,0 +1,4 @@
+#!/bin/bash -e
+
+base=$(dirname $0)
+ssh -p 2022 xargs@localhost -i "${base}/ssh/id" echo ping \| tr i o
