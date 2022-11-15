@@ -2,4 +2,5 @@ openssh/install/
 openssh/openssh-9.1p1/
 openssl/install/
 openssl/openssl-3.0.7/
+server/etc/sshd.pid
 *.stamp

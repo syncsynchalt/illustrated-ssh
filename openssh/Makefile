@@ -12,5 +12,6 @@ config.stamp:
 	touch config.stamp
 
 build.stamp:
+	cd openssh-9.1p1 && make -j 2
 	cd openssh-9.1p1 && make -j 2 install
 	touch build.stamp

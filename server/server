@@ -1,4 +1,5 @@
 #!/bin/bash -e
 
+export SERVER=1
 cp -f etc/ssh_host_ecdsa_key /tmp/ssh_host_ecdsa_key
 $(pwd)/../openssh/install/sbin/sshd -D -f etc/sshd_config -e

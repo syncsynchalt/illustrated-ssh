@@ -1,4 +1,5 @@
 #!/bin/bash -e
 
+export CLIENT=1
 base=$(dirname $0)
-ssh -p 2022 xargs@localhost -i "${base}/ssh/nomatch" echo ping \| tr i o
+$(pwd)/../openssh/install/bin/ssh -p 2022 -vvv xargs@localhost -i "${base}/ssh/nomatch" echo ping \| tr i o

@@ -1,7 +1,5 @@
 Port 2022
 HostKey /tmp/ssh_host_ecdsa_key
-AuthorizedKeysFile .ssh/authorized_keys
-KexAlgorithms curve25519-sha256
 PasswordAuthentication yes
 LogLevel DEBUG3
 X11Forwarding no
