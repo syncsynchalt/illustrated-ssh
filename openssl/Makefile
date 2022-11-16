@@ -9,6 +9,7 @@ config.stamp:
 	touch config.stamp
 
 openssl-3.0.7:
+	curl -O https://www.openssl.org/source/openssl-3.0.7.tar.gz
 	tar -zxvf openssl-3.0.7.tar.gz
 	cd openssl-3.0.7 && patch -p1 < ../stable.patch
 

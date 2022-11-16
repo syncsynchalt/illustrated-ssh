@@ -5,6 +5,7 @@ rebuild:
 	$(MAKE)
 
 openssh-9.1p1:
+	curl -O https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.1p1.tar.gz
 	tar -zxvf openssh-9.1p1.tar.gz
 	cd openssh-9.1p1 && patch -p1 < ../stable.patch
 
