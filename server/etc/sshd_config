@@ -1,6 +1,7 @@
 Port 2022
 HostKey /tmp/ssh_host_ecdsa_key
 PasswordAuthentication yes
+KexAlgorithms -sntrup761x25519-sha512@openssh.com
 LogLevel DEBUG3
 X11Forwarding no
 PrintMotd no

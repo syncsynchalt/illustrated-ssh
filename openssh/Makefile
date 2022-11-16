@@ -6,6 +6,7 @@ rebuild:
 
 openssh-9.1p1:
 	tar -zxvf openssh-9.1p1.tar.gz
+	cd openssh-9.1p1 && patch -p1 < ../stable.patch
 
 config.stamp:
 	cd openssh-9.1p1 && ./configure -C --with-ssl-dir=$$(pwd)/../../openssl/install --prefix=$$(pwd)/../install
