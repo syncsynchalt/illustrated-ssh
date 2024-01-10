@@ -1,3 +1,5 @@
+(This project is not being worked on currently, let me know if there's interest in it)
+
 # The Illustrated SSH Connection
 
 Will be published at https://ssh.xargs.org
