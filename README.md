@@ -1,4 +1,4 @@
-(This project was abandoned early on, and there is currently no plan on finishing it.  If you have the time and interest to do it yourself, you have my blessing!)
+(This project was abandoned early on, and there is currently no plan for finishing it.  If you have the time and interest to do it yourself, you have my blessing!)
 
 # The Illustrated SSH Connection
 
