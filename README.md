@@ -1,4 +1,4 @@
-(This project is not being worked on currently, let me know if there's interest in it)
+(This project was abandoned early on, and there is currently no plan on finishing it.  If you have the time and interest to do it yourself, you have my blessing!)
 
 # The Illustrated SSH Connection
 
